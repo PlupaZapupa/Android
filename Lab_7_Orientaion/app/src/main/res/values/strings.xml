@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Orientation</string>
+    <string name="count">Считаем ворон</string>
+    <string name="orientation">Ориентация</string>
+</resources>

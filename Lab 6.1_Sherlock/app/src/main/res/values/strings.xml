@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab 6.1_AnotherScreen</string>
+    <string name="question">"Кто отправил сказочных существ на болота? "</string>
+    <string name="button_text">"Сделать выбор"</string>
+    <string name="choose">Выберите правильный ответ:</string>>
+    <string name="answer1">Лорд Фаркуад</string>>
+    <string name="answer2">Фея Крестная</string>>
+    <string name="answer3">Осел</string>>
+</resources>

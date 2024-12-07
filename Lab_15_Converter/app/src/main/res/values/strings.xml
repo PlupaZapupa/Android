@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">15Converter</string>
+    <string name="enter">Введите длину кота:</string>
+    <string name="shrek_value">В Шреках</string>
+    <string name="brick_value">В спичечных коробках</string>
+</resources>

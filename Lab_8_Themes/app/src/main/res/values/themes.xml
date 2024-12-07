@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.Themes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+    </style>
+
+    <style name="Theme.Themes" parent="Base.Theme.Themes">
+        <!-- Here you can customize your app further -->
+    </style>
+
+    <!-- Custom theme for second activity -->
+    <style name="CustomTheme" parent="@style/Theme.Material3.DayNight.Dialog">
+        <item name="android:windowBackground">@color/custom_theme_color</item>
+        <item name="android:textColorPrimary">@color/colorOnPrimary</item>
+        <item name="android:colorBackground">@color/custom_theme_color</item>
+    </style>
+
+    <!-- Define your color palette -->
+    <color name="colorPrimary">#6200EE</color> <!-- Purple -->
+    <color name="colorSecondary">#03DAC5</color> <!-- Teal -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White -->
+    <color name="colorDialog">#870431</color> <!-- White -->
+    <color name="colorOnSecondary">#0F1D89</color> <!-- Black -->
+    <color name="colorBackground">#F5F5F5</color> <!-- Light gray -->
+    <color name="colorStatusBar">#3700B3</color> <!-- Darker purple -->
+    <color name="custom_theme_color">#DB8F92</color> <!-- Light pink -->
+</resources>

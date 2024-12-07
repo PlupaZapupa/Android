@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab18</string>
+    <string name="star">Star</string>
+    <string name="planet">Planet</string>
+    <string name="orbit">Orbit</string>
+    orbit
+</resources>

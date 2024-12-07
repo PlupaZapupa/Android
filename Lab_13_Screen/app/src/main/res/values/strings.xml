@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">13Screen</string>
+    <string name="info">Информация</string>
+    <string name="settings">Настройки</string>
+    <string name="screen_size">Размер экрана</string>
+    <string name="light">Яркость</string>
+    <string name="more_info">Еще</string>
+</resources>

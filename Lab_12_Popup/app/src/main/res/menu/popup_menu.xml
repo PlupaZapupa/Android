@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/shrek"
+        android:icon="@drawable/shrek"
+        android:iconTintMode="src_in"
+        android:title="@string/name_shrek" />
+    <item
+        android:id="@+id/donkey"
+        android:icon="@drawable/donkey"
+        android:iconTintMode="multiply"
+        android:title="@string/name_Donkey" />
+    <item
+        android:id="@+id/witch"
+        android:icon="@drawable/witch"
+        android:iconTintMode="src_in"
+        android:title="@string/name_Witch" />
+</menu>

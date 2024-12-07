@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab_5_Shrek</string>
+    <string name="shrek_text_up" />
+    <string name="shrek_text1">Что вы забыли на болотах?</string>
+    <string name="shrek_text2">Мне плевать на мещанские вкусы! Великаны не тортики!</string>
+    <string name="shrek_text3">Поверь мне, Осёл, будь это я — ты бы сдох!</string>
+    <string name="shrek_text4">Живу на болоте. Натыкал табличек. Я огромный и злобный. Этого мало, чтобы добиться уединения?!</string>
+</resources>

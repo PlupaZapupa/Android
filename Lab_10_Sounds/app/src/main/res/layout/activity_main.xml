@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/indean_tom"
+        android:layout_width="184dp"
+        android:layout_height="167dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/scare_tom"
+        app:layout_constraintEnd_toStartOf="@+id/scream_tom"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/tom1" />
+
+    <ImageView
+        android:id="@+id/scream_tom"
+        android:layout_width="185dp"
+        android:layout_height="188dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/sad_tom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/indean_tom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/tom2" />
+
+    <ImageView
+        android:id="@+id/scare_tom"
+        android:layout_width="197dp"
+        android:layout_height="187dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sad_tom"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indean_tom"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/tom3" />
+
+    <ImageView
+        android:id="@+id/sad_tom"
+        android:layout_width="176dp"
+        android:layout_height="148dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/scare_tom"
+        app:layout_constraintTop_toBottomOf="@+id/scream_tom"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/sad_tom" />
+</androidx.constraintlayout.widget.ConstraintLayout>
