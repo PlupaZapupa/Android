@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">24Camera</string>
+    <string name="bitmap">Миниатюра</string>
+    <string name="full">Расширенный</string>
+</resources>
